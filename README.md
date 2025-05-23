@@ -74,17 +74,27 @@ Use the `.py` files from the `/backend` folder. These can be opened in **PyCharm
 ---
 
 #Usage
-- Navigate through the menu categories
-- Use filters to find your favorite dishes
-- Place an order via the order form
-- Interact with the chatbot for assistance and recommendations
+Navigate through the menu categories
+
+Use filters to find your favorite dishes
+
+Place an order via the order form
+
+Interact with the chatbot for assistance and recommendations
+
 
 #Future Enhancements
--Build and integrate a custom chatbot to replace Dialogflow
--Add user authentication and order history
--Implement payment gateway integration
--Optimize for mobile devices
--Enhance UI/UX with more animations and accessibility features
+
+Build and integrate a custom chatbot to replace Dialogflow
+
+Add user authentication and order history
+
+Implement payment gateway integration
+
+Optimize for mobile devices
+
+Enhance UI/UX with more animations and accessibility features
+
 
 ---
 
