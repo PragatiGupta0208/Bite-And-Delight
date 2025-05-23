@@ -1,0 +1,380 @@
+
+/* Enhanced Poster-Style Menu Theme */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Open+Sans&display=swap'); */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/black-felt.png');
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+header {
+    background: #2a1f14;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    color: #f8b400;
+    border-bottom: 3px dashed #ff8c42;
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+}
+
+header i {
+    color: #f44336;
+    margin-right: 0.6rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Chewy', cursive;
+}
+
+.section-title h2 {
+    font-size: 2.8rem;
+    color: #ff8c42;
+    margin-bottom: 0.3rem;
+}
+
+.section-title p {
+    font-size: 1.1rem;
+    color: #ccc;
+    font-style: italic;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.8rem;
+    padding: 2rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.food-card {
+    background: #2f2f2f;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(255, 140, 66, 0.2);
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px dashed #ff8c42;
+}
+
+.food-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 140, 66, 0.5);
+}
+
+.food-card::before {
+    content: '🍴';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 3rem;
+    opacity: 0.1;
+}
+
+.food-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+    color: #ffddbd;
+    font-family: 'Chewy', cursive;
+}
+
+.food-card p {
+    color: #ff8c42;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #ff8c42;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(255, 140, 66, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+/* Page Divider Styling */
+ .page-divider {
+    height: 4px;
+    width: 60%;
+    margin: 4rem auto 2rem auto;
+    background: repeating-linear-gradient(90deg, #ff8c42 0 10px, transparent 10px 20px);
+    border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    .food-card {
+        padding: 1rem;
+    }
+
+    .food-card h3 {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* Enhanced Dark Poster-Style Menu Theme */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background: #1a120b;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    color: #f8b400;
+    border-bottom: 3px solid #ff6b35;
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+header i {
+    color: #ff6b35;
+    margin-right: 0.6rem;
+    text-shadow: 0 0 8px rgba(255, 107, 53, 0.6);
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Chewy', cursive;
+}
+
+.section-title h2 {
+    font-size: 2.8rem;
+    color: #ff6b35;
+    margin-bottom: 0.3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section-title p {
+    font-size: 1.1rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.8rem;
+    padding: 2rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.food-card {
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(255, 107, 53, 0.3);
+    border-color: #ff6b35;
+    background: #252525;
+}
+
+.food-card::before {
+    content: '🍴';
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 3rem;
+    opacity: 0.08;
+}
+
+.food-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+    color: #ffddbd;
+    font-family: 'Chewy', cursive;
+}
+
+.food-card p {
+    color: #ff8c42;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+/* Navigation Buttons Container */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+/* Previous & Next Buttons */
+.nav-btn {
+    background-color: #333;
+    color: #ff8c42;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    border: 1px solid #ff6b35;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.nav-btn:hover {
+    background-color: #ff6b35;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 107, 53, 0.4);
+}
+
+/* Primary Button */
+.btn {
+    background-color: #ff6b35;
+    color: white;
+    padding: 0.8rem 1.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(255, 107, 53, 0.4);
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #e65c2b;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 107, 53, 0.5);
+}
+
+/* Page Divider Styling */
+.page-divider {
+    height: 2px;
+    width: 60%;
+    margin: 4rem auto 2rem auto;
+    background: linear-gradient(90deg, transparent, #ff6b35, transparent);
+    border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .food-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .nav-buttons {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .nav-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 3rem auto;
+    width: 100%;
+  }
+  
+  .nav-btn {
+    background-color: #2a2a2a;
+    color: #ff8c42;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.95rem;
+    border: 1px solid #ff6b35;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-btn:hover {
+    background-color: #ff6b35;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+  }
+  
+  .nav-btn i {
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-btn:hover i {
+    transform: translateX(-3px);
+  }
+  
+  .nav-btn:last-child:hover i {
+    transform: translateX(3px);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .nav-buttons {
+      gap: 1rem;
+      margin: 2rem auto;
+    }
+    
+    .nav-btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.85rem;
+    }
+  }

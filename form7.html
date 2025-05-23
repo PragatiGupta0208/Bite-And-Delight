@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Train Journey Food Order</title>
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Order Food for Your Train Journey</h1>
+
+    <form id="foodOrderForm">
+      <label for="name">Passenger Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="train">Train Number:</label>
+      <input type="text" id="train" name="train" required />
+
+      <label for="seat">Coach & Seat Number:</label>
+      <input type="text" id="seat" name="seat" required />
+
+      <label for="food">Select Food Item:</label>
+      <select id="food" name="food" required>
+        <option value="">-- Choose an item --</option>
+        <option value="veg-thali">Veg Thali</option>
+        <option value="non-veg-thali">Non-Veg Thali</option>
+        <option value="biryani">Biryani</option>
+        <option value="sandwich">Sandwich</option>
+        <option value="snacks">Snacks</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" />
+
+      <button type="submit">Place Order</button>
+    </form>
+
+    <div id="successMessage" style="display: none; text-align: center; margin-top: 20px; font-weight: bold; color: #00ff88; font-size: 18px;">
+      ✅ Your order has been placed successfully!
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("foodOrderForm");
+    const successMessage = document.getElementById("successMessage");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevent form from actually submitting
+
+      form.style.display = "none";
+      successMessage.style.display = "block";
+
+      // After 3 seconds, redirect back to homepage (index.html)
+      setTimeout(() => {
+        window.location.href = "index7.html"; // 👈 change this if your homepage file is named differently
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
