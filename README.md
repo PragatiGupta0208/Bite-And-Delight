@@ -75,27 +75,29 @@ Use the `.py` files. These can be opened in **PyCharm**. The MySQL connection se
 
 ## Usage
 
-Navigate through the menu categories
+- Navigate through the menu categories
 
-Use filters to find your favorite dishes
+- Use filters to find your favorite dishes
 
-Place an order via the order form
+- Place an order via the order form
 
-Interact with the chatbot for assistance and recommendations
+- Interact with the chatbot for assistance and recommendations
+
+---
 
 
 ## Future Enhancements
 
 
-Build and integrate a custom chatbot to replace Dialogflow
+- Build and integrate a custom chatbot to replace Dialogflow
 
-Add user authentication and order history
+- Add user authentication and order history
 
-Implement payment gateway integration
+- Implement payment gateway integration
 
-Optimize for mobile devices
+- Optimize for mobile devices
 
-Enhance UI/UX with more animations and accessibility features
+- Enhance UI/UX with more animations and accessibility features
 
 
 ---
