@@ -88,7 +88,7 @@ Use the `.py` files from the `/backend` folder. These can be opened in **PyCharm
 
 ---
 
-Contributing
+#Contributing
 Contributions are welcome! Please open an issue or submit a pull request for improvements, bug fixes, or new features.
 
 ---
