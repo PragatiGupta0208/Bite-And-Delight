@@ -49,10 +49,10 @@ bite-and-delight
 ## Installation and Setup
 
 ### Frontend
-Use the `.html`, `.css`, and `.js` files from the `/frontend` folder.
+Use the `.html`, `.css`, and `.js` files.
 
 ### Backend
-Use the `.py` files from the `/backend` folder. These can be opened in **PyCharm**. The MySQL connection setup is in `database.py`.
+Use the `.py` files. These can be opened in **PyCharm**. The MySQL connection setup is in `database.py`.
 
 ### Running the Server
 
@@ -73,7 +73,7 @@ Use the `.py` files from the `/backend` folder. These can be opened in **PyCharm
 
 ---
 
-#Usage
+## Usage
 
 Navigate through the menu categories
 
@@ -84,7 +84,7 @@ Place an order via the order form
 Interact with the chatbot for assistance and recommendations
 
 
-#Future Enhancements
+## Future Enhancements
 
 
 Build and integrate a custom chatbot to replace Dialogflow
@@ -100,7 +100,7 @@ Enhance UI/UX with more animations and accessibility features
 
 ---
 
-#Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for improvements, bug fixes, or new features.
 
@@ -112,7 +112,7 @@ This project is licensed under the MIT License.
 
 ---
 
-Contact
+## Contact
 
 For any queries, contact:
 
