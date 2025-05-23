@@ -1,7 +1,7 @@
 
-# Bight and Delight
+# Bite and Delight
 
-**Bight and Delight** is a modern, interactive food ordering web application designed to offer users a seamless experience browsing, filtering, and ordering a wide variety of food items. The platform integrates an intelligent chatbot to assist users in making choices and answering queries in real time.
+**Bite and Delight** is a modern, interactive food ordering web application designed to offer users a seamless experience browsing, filtering, and ordering a wide variety of food items. The platform integrates an intelligent chatbot to assist users in making choices and answering queries in real time.
 
 ---
 
