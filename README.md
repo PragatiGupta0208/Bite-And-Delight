@@ -74,6 +74,7 @@ Use the `.py` files from the `/backend` folder. These can be opened in **PyCharm
 ---
 
 #Usage
+
 Navigate through the menu categories
 
 Use filters to find your favorite dishes
@@ -84,6 +85,7 @@ Interact with the chatbot for assistance and recommendations
 
 
 #Future Enhancements
+
 
 Build and integrate a custom chatbot to replace Dialogflow
 
@@ -99,19 +101,25 @@ Enhance UI/UX with more animations and accessibility features
 ---
 
 #Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request for improvements, bug fixes, or new features.
 
 ---
 
 ## License
+
 This project is licensed under the MIT License.
 
 ---
 
 Contact
+
 For any queries, contact:
+
 Pragati Gupta
+
 Email: guptapragati0208@gmail.com
+
 GitHub: PragatiGupta0208
 
 
